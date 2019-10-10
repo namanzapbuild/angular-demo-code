@@ -1,0 +1,26 @@
+.top-menu {
+    background: #c2f5a9;
+    border-radius: 10px;
+    vertical-align: middle;
+    box-shadow: 2px 2px 2px #dad1d1d9;
+}
+
+.top-menu h3 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: calc(60%);
+}
+
+.header {
+    margin: auto;
+}
+
+@media only screen and (max-width: 576px) {
+    .top-menu h3 {
+        width: calc(90%);
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}

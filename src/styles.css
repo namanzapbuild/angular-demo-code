@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f7f3f3;
+}
+
+.textDanger {
+    color: #d3396c
+}

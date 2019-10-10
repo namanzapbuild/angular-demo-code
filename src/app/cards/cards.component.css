@@ -1,0 +1,68 @@
+.cardTitle {
+    position: absolute;
+    background: #00000094;
+    color: #fff;
+    bottom: 15px;
+    left: 25px;
+    text-transform: uppercase;
+    line-height: 37px;
+    font-weight: 600;
+    padding: 16px;
+}
+
+.card-body p {
+    font-size: 19px;
+}
+
+.card-heading {
+    position: relative;
+}
+
+.card {
+    box-shadow: 1px 2px 1px #e8e7e7;
+    font-family: 'Karla', sans-serif;
+}
+
+.card img {
+    height: 245px;
+    object-fit: cover;
+}
+
+.textQty {
+    font-weight: 600;
+    font-size: 20px!important;
+}
+
+.cardHeading {
+    font-weight: 600;
+}
+
+.buyBtn {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+}
+
+.buyBtn h5 {
+    color: #fff;
+    background: #00000096;
+    margin-top: 7px;
+    padding: 6px;
+    text-align: center;
+}
+
+.buyBtn button {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding-left: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+    .cardTitle {
+        font-size: 18px;
+    }
+}
